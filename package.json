@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "The first server assignment for IGME 430",
+  "main": "./src/server.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-A-Berger/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Michael Berger",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Michael-A-Berger/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/Michael-A-Berger/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
